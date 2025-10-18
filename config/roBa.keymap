@@ -72,6 +72,7 @@
             label = "ENCODER_MSC_DOWN_UP";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+
             tap-ms = <20>;
         };
     };
@@ -93,7 +94,7 @@
         symbol {
             bindings = <
 &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES  &kp EXCL    &kp CARET     &kp TAB                             &kp GRAVE      &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp UNDER      &kp PERCENT
-&kp AT            &kp SEMI           &kp DOLLAR  &kp QUESTION  &kp PIPE       &trans      &kp F13  &kp HASH       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER      &trans
+&kp AT            &kp SEMI           &kp DOLLAR  &kp QUESTION  &kp PIPE       &trans      &kp F13  &kp HASH       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS      &trans
 &kp ESC           &kp TILDE          &kp COLON   &kp EXCL      &kp BACKSLASH  &trans      &trans   &kp AMPERSAND  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LESS_THAN  &kp GREATER_THAN
 &trans            &trans             &trans      &trans        &trans         &trans      &trans   &trans                                                                     &trans
             >;
